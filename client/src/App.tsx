@@ -7,17 +7,17 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 
 
-const ROUTER_BASE =
-  import.meta.env.BASE_URL === "/"
-    ? undefined
-    : import.meta.env.BASE_URL.replace(/\/$/, "");
+const APP_BASE_PATH = import.meta.env.BASE_URL;
+  
+    
+    
 
 function Router() {
   return (
-    <WouterRouter base={ROUTER_BASE}>
+    <WouterRouter>
       <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/404"} component={NotFound} />
+      <Route path={APP_BASE_PATH} component={Home} />
+      <Route path={`${APP_BASE_PATH}404`} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
     </Switch>
