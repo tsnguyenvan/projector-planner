@@ -1,0 +1,34 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/7k49qNcZB7EpjX9PdxcbjV.git",
+    "expiration": "2026-08-13T02:35:48.516Z",
+    "token": "art_v1_d5d4472b3dbf3dc7528430c1e34a2e0dddc6c8fb?expires=1786588548",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "projector-planner-vn",
+  "path": "/home/ubuntu/projector-planner-vn",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "HnLNEaw4gMVjEuenst9BJ5",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "iySyAb7TWhNPdmKYeC42fp",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Sơn Nguyễn",
+    "OWNER_OPEN_ID": "6PhrSkqZPJgAECsfchbJZe",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "535526fe-a2e8-41ba-8703-37eb5fd19f1d",
+    "VITE_APP_ID": "7k49qNcZB7EpjX9PdxcbjV",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Bố Trí Máy Chiếu",
+    "VITE_FRONTEND_FORGE_API_KEY": "KekeNZiGMsLueoaYzwVEeq",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
