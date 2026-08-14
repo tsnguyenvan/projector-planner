@@ -206,7 +206,7 @@ function vitePluginStorageProxy(): Plugin {
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
 
 export default defineConfig({
-  base: process.env.GITHUB_ACTIONS ? "/Distance-Projector/" : "/",
+  base: process.env.GITHUB_ACTIONS ? "/projector-planner/" : "/",
   plugins,
   resolve: {
     alias: {
